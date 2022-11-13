@@ -91,7 +91,84 @@ section.menu {
 
 /*Sección Title*/
 
-section.title {}
+section.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 208px;
+    width: 1136px;
+    height: 368px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title__profile {
+    width: 368px;
+    height: 368px;
+
+    background: url(.jpg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title__bio {
+    width: 751px;
+    height: 122px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title__subsection {
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 467px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
 
 /*Sección About*/
 
@@ -123,9 +200,180 @@ section.about {
     flex-grow: 0;
 }
 
+/*Sección Skilss*/
+
+section.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px;
+    gap: 32px;
+    width: 1000px;
+    height: 244px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.skills__title {
+    width: 82px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skills__img {
+    width: 24px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A7AE4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.skills__name {
+    width: 144px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 /*Sección Hobbies*/
 
-section.hobbies {}
+section.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px;
+    gap: 32px;
+    width: 1000px;
+    height: 244px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hobbies__title {
+    width: 127px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies__img {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hobbies__name {
+    width: 144px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
 
 /* Experiencia Académica*/
 
@@ -301,7 +549,7 @@ section.formcontato {
     width: 144px;
     height: 51px;
     background: #2A7AE4;
-    color:#EAF2FD;
+    color: #EAF2FD;
     flex: none;
     order: 2;
     flex-grow: 0;
