@@ -25,12 +25,17 @@ a {
 
 
 .tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
     position: absolute;
-    width: 1440px;
     height: 5020px;
-    left: 0px;
+    left: 0%;
+    right: 0%;
     top: 0px;
-    background: #F5F5F5;
 }
 
 /*Sección Menu*/
@@ -177,8 +182,7 @@ section.about {
     flex-direction: column;
     align-items: center;
     padding: 64px;
-    gap: 10px;
-    width: 1440px;
+    gap: 100%;
     height: 383px;
     background: #EAF2FD;
     flex: none;
@@ -206,7 +210,7 @@ section.skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 152px;
+    padding: 0px;
     gap: 32px;
     width: 1000px;
     height: 244px;
@@ -248,7 +252,7 @@ section.skills {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 16px;
+    padding: 0px;
     gap: 8px;
     width: 176px;
     height: 174px;
@@ -340,7 +344,7 @@ section.hobbies {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 16px;
+    padding: 0px;
     gap: 8px;
     width: 176px;
     height: 174px;
@@ -383,7 +387,7 @@ section.academic {
     align-items: center;
     padding: 82px;
     gap: 32px;
-    width: 1440px;
+    width: 100%;
     height: 581px;
     background: #EAF2FD;
     flex: none;
@@ -435,7 +439,178 @@ section.academic {
 
 /* experiencia*/
 
-section.experience {}
+section.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 1886px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.experience__section__title {
+    width: 361px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 138px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.experience__botao--demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 105px;
+    height: 51px;
+    color: #EAF2FD;
+    background: #2A7AE4;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.experiencia__botao--repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 116px;
+    height: 51px;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience__description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 560px;
+    height: 51px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.experience__img1 {
+    width: 752px;
+    height: 406px;
+    background: url(ahorcado.png);
+    border-radius: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.experience__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 112px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.experience__box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience__box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience__img2 {
+    width: 751px;
+    height: 406px;
+    background: url(forca.png);
+    border-radius: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.experience__info-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 369px;
+    height: 138px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
 
 /*Contacto*/
 
